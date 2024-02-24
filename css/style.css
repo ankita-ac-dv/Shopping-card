@@ -483,13 +483,13 @@ padding: 1rem 0;
 {
     border: 0px solid;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 1rem;
 }
 
 .categories .box-container .box
 {
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
     background: #fff;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -691,11 +691,6 @@ padding: .5rem 4rem;
   padding-right: .5rem;
 }
 
-.footer .box-container .box .links:hover i
-{
-    padding: 1rem;
-}
-
 .footer .box-container .box p
 {
     line-height: 1.8;
@@ -717,11 +712,7 @@ padding: .5rem 4rem;
     text-align: center;
 }
 
-.footer .box-container .box .share a:hover
-{
-    background: var(--green);
-    color: #fff;
-}
+
 
 .footer .box-container .box .email
 {
